@@ -5,16 +5,18 @@ html {
   height: 100%;
   background-color: #FFFFFF;
 }
-
-.container{
+.fodase{
   display: flex;
   width: 100%;
+ 
   justify-content: center;
 }
 .icon {color: #BCD2DA;}
 .cardGroup{
-  flex-basis: 720px;
-  flex-shrink: 310px;
+  width: 100%;
+  
+  max-width: 720px;
+  min-width: 310px;
 }
 .card {
   /* display, flex-direction */
@@ -31,14 +33,13 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items:center;
+  align-items: center;
   padding: 15px 0;
 }
 
 .card__descriptionIcon {font-size: 32px; margin-bottom: 10px;}
 
 .card__descriptionText {
-  height: 40px;
   color: #57727C;
   font-size: 12px;
   text-align: center;
@@ -46,6 +47,7 @@ html {
 }
 
 .card__price {
+  
   text-align: center;
   color: #57727C;
   font-size: 12px;
@@ -65,15 +67,14 @@ html {
 
   .cardGroup__card {
     /* flex-grow, flex-shrink, flex-basis */
-    
+
    
   }
 
   .cardGroup__card {
-    
+    border-left: 1px solid #D7DBDD;
   }
 
   .cardGroup__cardDescription {
     /* flex-grow, flex-shrink, flex-basis */
-    
   }
