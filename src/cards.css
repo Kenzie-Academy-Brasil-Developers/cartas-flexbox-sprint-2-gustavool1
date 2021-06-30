@@ -13,7 +13,7 @@ html {
 }
 .icon {color: #BCD2DA;}
 .cardGroup{
-  flex-basis: 720px;
+  flex-basis: 708px;
   flex-shrink: 310px;
 }
 .card {
